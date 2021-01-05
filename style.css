@@ -1,0 +1,246 @@
+/* RESETS */
+
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    color: #ffffff;
+}
+img{
+    max-width: 100%;
+}
+*{
+    box-sizing: border-box;
+}
+.flex{
+    display: flex;
+}
+.wid50{
+    width: 50%;
+}
+
+/* Detaljer på hele siden */
+
+.h1-all{
+    font-size: 50px;
+    color: #ffffff;
+    font-weight: 100;
+    margin: 0;
+}
+
+/* Header */
+
+.header{
+    background-color: #374c5d;
+}
+
+/* Nav */
+
+.logo{
+    padding: 10px 100px;
+}
+.dm-menu{
+    list-style:none;
+    margin: 0;
+    padding: 20px 5px 20px 320px;
+    display: flex;
+}
+.dm-menu-item a{
+    text-decoration: none;
+    padding-right: 15px;
+    color: #ffffff;
+    font-size: 14px;
+}
+.selected{
+    color: #808080;
+}
+
+
+/* Main */
+
+/* Slider */
+
+.tns-outer{
+    position: relative;
+}
+.tns-controls{
+    position: absolute;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    top: 35%;
+    padding: 0 250px;
+}
+.tns-controls button{
+    background-color: transparent;
+    border: none;
+    font-size: 70px;
+    color: whitesmoke;
+}
+.slide{
+    display: flex;
+    height: 700px;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+}
+#slide1{
+    background-image: url("../img/sliderpicture1.jpg");
+}
+#slide2{
+    background-image: url("../img/sliderpicture2.jpg");
+}
+#slide3{
+    background-image: url("../img/sliderpicture3.jpg");
+}
+
+.slide article{
+    text-align: center;
+    color: white;
+    text-shadow: 0.2px 0.2px 0.2px #000000;
+}
+.top-headline{
+    font-size: 30px;
+    font-weight: 400;
+}
+.slider-heading{
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.slider-text{
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 350px;
+    padding-right: 350px;
+}
+.slider-button{
+    padding: 15px 35px;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: transparent;
+    border: 3px #ffffff solid;
+    border-radius: 10px;
+    margin: 30px 0;
+}
+
+/* About */
+
+.about-section{
+    background-color: #ffffff;
+}
+.about-col1{
+    background-color: #52d3ff;
+    padding: 75px 100px;
+}
+.par1{
+    font-size: 16px;
+}
+.about-col2{
+    padding: 40px 125px 50px 55px;
+}
+.bullet{
+    padding-bottom: 50px;
+}
+.bullet-icon{
+    width: 20%;
+    font-size: 50px;
+    color: #242f39;
+    text-align: center;
+    background-color: #d6dbde;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+.bullet-text{
+    width: 80%;
+    color: #8092a1;
+    font-size: 13px;
+    margin-left: 25px;
+    letter-spacing: 0.5px;
+}
+.h-bullet{
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 5px;
+    margin-top: 7px;
+    letter-spacing: 0.5px;
+}
+
+/* Footer */
+
+.footer{
+    background-color: #242f39;
+}
+
+/* Left side - contact */
+
+.contact-section{
+    padding: 100px 125px 100px 55px;
+}
+.contact-text{
+    color: #8092a1;
+    margin-bottom: 50px;
+}
+.contact-point{
+    margin-bottom: 30px;
+}
+.contact-icon{
+    color: #74D270;
+    font-size: 30px;
+    text-align: flex-start;
+    width: 10%;
+}
+.point-text{
+    width: 80%;
+}
+.h-point{
+    font-size: 16px;
+    font-weight: 100;
+    margin: 0;
+    padding: 0;
+}
+.point-txt{
+    font-size: 16px;
+    color: #8092a1;
+    margin: 0;
+    padding: 0%;
+}
+
+/* Right side - formen */
+
+.form-frame{
+    background-color: #263540;
+    border-radius: 10px;
+    margin: 100px 65px 100px 100px;
+    padding: 40px;
+    width: 550;
+    height: 450;
+}
+.h-form{
+    font-size: 30px;
+    font-weight: 100;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.input-fields{
+    background-color: transparent;
+    border: 2px solid #39414b;
+    border-radius: 5px;
+    width: 470px;
+    height: 45px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+#form textarea{
+    height: 165px;
+}
+.send-btn{
+    font-weight: 500;
+    background-color: #515e6e;
+    border: none;
+}
